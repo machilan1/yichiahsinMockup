@@ -1,3 +1,23 @@
+
+.hamburger{
+    top:1rem;
+    left:1rem;
+    position: fixed;
+    z-index: 1;
+    height: 2rem;
+    width: 2rem;
+    display: none;
+}
+
+.hamburger *:hover{
+    cursor: pointer;
+}
+
+.hamburger *{
+    background-color: transparent;
+    border: 0;
+}
+
 .landing{
     margin-top: 3rem;
     width: 100%;
@@ -15,7 +35,7 @@
 .logo{
     width: 115.2px;
     position: absolute;
-    top: 15%;
+    top: 13%;
     
 }
 
@@ -31,9 +51,11 @@
     
 }
 main section{
+    max-width: 100vw;
     padding: 4rem;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .section-button{
@@ -68,11 +90,12 @@ main section{
     border-radius: 10px;
 }
 .product-showcase{
+    padding: 4rem;
     background-color: var(--brand-secondary);
     }
 
 .showcase{
-    max-width:fit-content;
+    max-width:100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 0;
@@ -82,16 +105,20 @@ main section{
 
 .goods{
     position: relative;
-    height: 300px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .goods:hover{
     cursor: pointer;
 }
 .goods img{
+    width: 100%;
     object-fit: cover;
     object-position: center center;
-    width: 480px;
+    max-width: 480px;
 }
 
 .goods .mask{
@@ -135,9 +162,10 @@ main section{
 
 
 .service-slider-area{
+    padding: 0 4rem;
     display: flex;
     height: 600px;
-    width: 100%;
+    width: 1440px;
 }
 
 .service-slider-area img{

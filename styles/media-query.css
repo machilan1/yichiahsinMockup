@@ -1,0 +1,23 @@
+@media (max-width:64rem){
+.showcase{
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media (max-width:80rem){
+    header{
+        display: none;
+    }
+
+    .landing{
+        margin: 0;
+    }
+    
+    .logo{
+        width: 10%;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    }
