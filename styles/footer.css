@@ -1,0 +1,28 @@
+footer{
+    height: 3.5rem;
+    background-color: #feee00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.footer-content-area{
+    display: flex;
+    column-gap: 2rem;
+}
+footer p {
+    /* display: inline-block; */
+    font-size: 12px;
+}
+
+footer a {
+    color: var(--brand-secondary);
+    text-decoration: none;
+    font-size: 12px;
+    /* display: inline-block; */
+}
+
+footer a i {
+    font-size: 16px;
+}

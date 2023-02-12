@@ -1,0 +1,53 @@
+body{opacity: 0;
+    animation-delay: .5s;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes appear{
+    from{opacity: 0;}
+    to{opacity: 1;}    
+}
+
+.active{
+    animation-name: appear;
+}
+
+
+.product-showcase .section-title{
+    opacity: 0;
+    animation-delay: .1s; 
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+} 
+
+.showcase > :nth-child(-n+3){
+    opacity: 0;
+    animation-delay: .4s;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+
+.showcase > :nth-last-child(-n+3){
+    opacity: 0;
+    animation-delay: .7s;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.product-showcase button{
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.services{
+    animation-duration: .3s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}

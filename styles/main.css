@@ -1,0 +1,24 @@
+:root {
+    --active-color:var(--brand-purple);
+    --brand-primary: #e1dcc7;
+    --brand-secondary: #272932;
+    --brand-tertiary: #5e5b52;
+    --brand-purple: #8f03ff;
+    --brand-purple-alpha: rgba(143, 3, 255, .42);
+    --brand-pink: #df00ff;
+    --brand-pink-alpha: rgba(223, 0, 255, .42);
+    --brand-yellow: #feee00;
+    --brand-yellow-alpha: rgba(254, 238, 0, .42);
+    --brand-white-alpha: rgba(255, 255, 255, .6);
+    --max-width: 1920px;
+    --page-width: 1440px;
+    --header-height: 3.5rem;
+    --section-padding: 4rem;
+    --content-height: 2rem;
+    --block-height: 950px;
+    --banner-height: 850px;
+    --banner-ratio-desktop: 1920 / 850;}
+
+    *{
+        font-family: Roboto,Arial;
+    }
